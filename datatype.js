@@ -12,6 +12,9 @@ console.log(a, b, c, d, e, f, g)
 console.log(typeof d)
 
 //Non Primitive Datatype
+
+// example 1 
+
 const item = {
     "Sunny": true,
     "Shubh": false,
@@ -19,3 +22,12 @@ const item = {
     "Rohan": undefined
 }
 console.log(item["Sunny"])
+
+//example 2
+
+let student = {
+    name: "sunny",
+    age: 20,
+    course: "BCA"
+};
+console.log(student);
